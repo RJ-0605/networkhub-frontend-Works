@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+
 import {
   BrowserRouter,
   Switch,
@@ -15,7 +16,7 @@ import LoginPage from './pages/LoginPage';
 
 import SignUpRoutes from "./pages/Routes/SignUpRoutes";
 // import {User} from './pages/Routes/SignUpRoutes'
-
+import TestPage from "./pages/TestPage";
 import SignUpPage from './pages/SignUpPage';
 import SignUpStage from './pages/SignUpStage';
 import SignUpStage1 from './pages/SignUpStage1';
@@ -37,7 +38,6 @@ function App() {
 
       <BrowserRouter >
           <Switch>
-
 
                   {/*signuproutes starts here */}
                           <Route exact path="/signup">
@@ -92,6 +92,9 @@ function App() {
                   </Route>
                 <Route exact path="/login">
                     <LoginPage />
+                  </Route>
+              <Route  exact path="/test">
+                    <TestPage />
                   </Route>
 
               <Route path="*" component={NotFound} />

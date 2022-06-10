@@ -4,3 +4,51 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
+.guide-app-body{
+    display: flex;
+    justify-content: center;
+}
+
+.guide-job-card{
+    margin-top: 60px;
+    width: 60rem;
+    height: 17rem;
+    border-radius: 13px !important;
+    z-index: 1000;
+    box-shadow: 2px 3px 6px 5px rgba(0, 0, 0, 0.15);
+    border: none !important;
+    display: flex;
+    text-align: left;
+}
+
+.guide-job-company-img{
+    flex-basis: 35%;
+    margin-top: 35px;
+}
+
+.guide-job-company-img-card{
+    width: 13rem;
+    /* height: 5rem; */
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.guide-job-company-details{
+    flex-basis: 65%;
+    margin-top: 55px;
+}
+
+.guide-job-company-details{
+    font-size: 20px;
+}
+
+.guide-job-company-img-card img{
+    width: 100%;
+    height: 8rem;
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 13px;
+    
+}
