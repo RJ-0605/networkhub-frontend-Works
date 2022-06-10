@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.logo-section img{
+    width: 35%;
+}
+
+.connect p{
+    font-size: 38px;
+    color: #23395B;
+}
+
+.videos{
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.videos .card{
+   position: relative;
+   width: 35%;
+   height: 350px;
+   background-color: #23395B;
+   border-radius: 20px;
+   margin: 20px;
+}
+
+.card > i{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 35px !important;
+}
+
+.what-is h1{
+    font-size: 40px;
+    color: #23395B;
+}
+
+.what-is p{
+    font-size: 25px;
+    color: #23395B;
+}
+
+.who-needs{
+    margin-top: 30px;
+}
+
+.who-needs h1{
+    font-size: 40px;
+    color: #23395B;
+}
+
+.who-needs p{
+    font-size: 25px;
+    color: #23395B;
+}
+

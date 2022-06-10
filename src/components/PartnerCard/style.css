@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+ }
+
+.partner-card-body{
+    display: flex;
+    justify-content: center;
+} 
+
+ .partner-card{
+     margin-top: 20px;
+    width: 40rem;
+    height: 44rem;
+    border-radius: 13px !important;
+    z-index: 1000;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    border: none !important;
+ }
+
+.partner-title{
+    margin-bottom: 60px;
+} 
+
+ .partner-card :nth-child(5) > input{
+     height: 150px;
+ }
+
+ .partner-card label{
+     margin-left: 55px !important;
+ } 
+
+.partner-btn button{
+    color: #fff;
+    background: #23395B;
+    width: 100px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-top: 20px;
+} 

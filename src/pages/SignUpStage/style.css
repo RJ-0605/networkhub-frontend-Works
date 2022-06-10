@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.sign-up-stage-card{
+    width: 50rem;
+    height: 50rem;
+    border-radius: 13px !important;
+    z-index: 1000;
+    box-shadow: 6px 2px 30px 9px rgb(0 0 0 / 15%);
+    border: none !important;
+}
+
+.sign-up-stage-card-content{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sign-up-stage-card-content .users-card{
+    margin: 10px;
+    
+}
+
+.users-card{
+    width: 21rem;
+    height: 30rem;
+    border: 1px solid #A3A8B8;
+    border-radius: 30px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.users-card-content{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    margin-top: 80px;
+}
+
+.users-card p{
+    color: #23395B;
+    text-align: center;
+}
+
+.users-card > div i{
+    text-align: center;
+    align-items: center;
+    margin-top: 10px !important;
+    margin-bottom: 20px;
+    font-size: 30px !important;
+}
+
+.seek-res p{
+  font-size: 20px;
+  white-space: nowrap;
+}

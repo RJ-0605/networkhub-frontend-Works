@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+ }
+
+.pop-card{
+    width: 400px;
+    height: 550px;
+    border: 1px solid rgb(102, 99, 99);
+    align-self: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+
+} 
+
+.pop-card-body{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.pop-card-content{
+    margin-top: -40px !important;
+}
+
+.pop-card-title{
+    display: flex;
+    justify-content: center;
+}
+
+.pop-card-title h3{
+    font-size: 25px;
+}
+
+.pop-card-title > i{
+    position: absolute;
+    font-size: 18px !important;
+    margin-left: 320px !important;
+    cursor: pointer;
+}
+
+.pop-card-content .form-group{
+    margin-top: 20px;
+}
+
+.pop-card-content label{
+    margin-left: 30px;
+}
+
+.pop-card-content select{
+    width: 330px;
+    height: 65px;
+    border-color: #667080 !important;
+}
+
+.pop-btn button{
+    width: 150px;
+    padding: 8px;
+    color: #fff;
+    font-size: 20px;
+    background-color: #23395B;
+    border-radius: 25px;
+    border: none;
+    margin-top: 30px;
+}

@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.signup-wrapper-body{
+    width: 100vw;
+    height: 100vh;
+    background: #FBFCFC;
+   position: relative;
+}
+
+.signup-wrapper-body .card{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.signup-wrapper-body .sign-up-stage-card{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

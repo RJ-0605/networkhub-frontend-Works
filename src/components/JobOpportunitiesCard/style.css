@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+ }
+
+ 
+.job-card-body{
+    display: flex;
+    justify-content: center;
+} 
+
+.job-card{
+    margin-top: 60px;
+    width: 60rem;
+    height: 11rem;
+    border-radius: 13px !important;
+    z-index: 1000;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    border: none !important;
+    display: flex;
+    text-align: left;
+}
+
+.company-img-card{
+    width: 10rem;
+    height: 5rem;
+}
+
+.company-img-card img{
+    width: 100%;
+}
+
+
+.company-img{
+   flex-basis: 20%;
+}
+
+.company-details{
+  flex-basis: 70%;
+  margin-top: 25px;
+}
+.apply-btn{
+ flex-basis: 10%;
+ margin-top: 58px;
+ margin-right: 10px;
+}
+
+.apply-btn button{
+    background: #23395B;
+    color: #fff;
+    padding: 7px;
+    border-radius: 20px;
+    width: 70px;
+}

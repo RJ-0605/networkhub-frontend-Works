@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.card{
+    width: 42rem;
+    height: 47rem;
+    border-radius: 13px !important;
+    z-index: 1000;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    border: none !important;
+}
+
+.card-content{
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-content p{
+    text-align: left;
+    font-size: 24px;
+    margin-left: 7px;
+}
+
+.form-group{
+    margin: 10px;
+}
+
+.form-group label{
+    font-size: 13px;
+    float: left;  
+}
+
+.form-group input{
+    width: 430px;
+    height: 45px;
+    border: 1px solid #406E8E;
+    border-radius: 5px;
+}
+
+.form-group ::-webkit-input-placeholder{
+    font-size: 15px;
+    color: #8EA8C3;
+}
+
+.checkbox-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkbox-section span{
+    color: #406E8E;
+    cursor: pointer;
+}
+
+.forgot-password{
+    margin-right: 9px;
+}
+
+.forgot-password a{
+    color: #406E8E !important;
+    cursor: pointer;
+}
+
+[type="checkbox"], [type="radio"]{
+    width: 30px !important;
+}
+
+.input-check{
+    margin-left: 2px;
+}
+
+.log-in-btn{
+    width: 430px;
+    background: #23395B;
+    height: 45px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.or-section{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.or-section p{
+    width: 97%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+.or-section span{
+    background: #fff;
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+.log-with-social{
+    width: 430px;
+    background: #8EA8C3;
+    height: 45px;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: none;
+}
+
+.dont-have-account{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.dont-have-account p{
+    font-size: 14px;
+    color: #406E8E;
+    margin-right: 10px;
+}
+
+.dont-have-account a{
+    color: #23395B;
+    cursor: pointer;
+}
+
+
